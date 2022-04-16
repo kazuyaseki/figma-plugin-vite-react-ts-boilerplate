@@ -1,0 +1,21 @@
+diff --git a/node_modules/@figma/plugin-typings/index.d.ts b/node_modules/@figma/plugin-typings/index.d.ts
+index 14cfb47..7925022 100644
+--- a/node_modules/@figma/plugin-typings/index.d.ts
++++ b/node_modules/@figma/plugin-typings/index.d.ts
+@@ -8,7 +8,6 @@ declare global {
+   const __uiFiles__: {
+     [key: string]: string
+   }
+-  const console: Console
+ 
+   // The plugin environment exposes the browser console API,
+   // so expected calls like console.log() still work.
+@@ -25,8 +24,6 @@ declare global {
+   function setInterval(callback: Function, timeout: number): number
+   function clearInterval(handle: number): void
+ 
+-  const fetch: (url: string, init?: FetchOptions) => Promise<FetchResponse>
+-
+   interface FetchOptions {
+     method?: string
+     headersObject?: { [name: string]: string }
