@@ -1,6 +1,6 @@
 {
-  "name": "variantgen",
-  "id": "1097117693464014633",
+  "name": "your plugin name",
+  "id": "your plugin id",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
